@@ -1,0 +1,125 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0 auto;
+    background-color: #411187;
+}
+
+header {
+    text-align: center;
+    color: #D4B987;
+}
+
+nav {
+    padding: 0;
+    background-color: #D62081;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: #D62081;
+}
+
+nav li {
+    list-style: none;
+    text-align: center;
+    display: inline-block;
+    flex-grow: 1;
+    background-color: #D62081;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 2rem;
+    display: block;
+    padding: 1rem;
+    background-color: #D62081;
+}
+
+nav a:hover {
+    background-color: #000000;
+    color: #D62081;
+}
+
+.profile {
+    max-width: 30%;
+    max-height: 30%;
+    margin-bottom: 5%;
+}
+
+section {
+    padding: 5% 10%;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+#about {
+    background-color: #D4B987;
+    color: #000000;
+}
+
+#hobbies {
+    color: #D4B987;
+}
+
+#hobbies ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#hobbies a {
+    text-decoration: none;
+    color: #D4B987;
+}
+
+#contact {
+    background-color: #000000;
+    color: #D4B987;
+}
+
+fieldset {
+    margin: 5% 0;
+    border-color: #D62081;
+    padding: 1rem;
+    text-align: center;
+}
+
+legend {
+    font-size: 1.5rem;
+}
+
+h4 {
+    margin: 3% 2% 2%;
+    text-align: left;
+}
+
+input,
+textarea {
+    width: 95%;
+    border: none;
+    padding: 1%;
+}
+
+button {
+    padding: 1rem 1.5rem;
+    margin: 3% 0;
+    border: none;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    background-color: #D62081;
+    color: #D4B987;
+    text-align: center;
+}
+
+button::after {
+    background-color: #D4B987;
+    color: #000000;
+}
